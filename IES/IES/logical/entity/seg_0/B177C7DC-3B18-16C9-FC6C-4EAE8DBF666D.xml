@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B177C7DC-3B18-16C9-FC6C-4EAE8DBF666D" name="ALUNO">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>7643DD47-FB5A-D974-C3EE-202860D62F46</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="2642AD32-7BC4-73F7-EAAD-397C876A2B56">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>E9AEE9EF-F3EF-90D1-05D5-7D729D42AD3C</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="BE784432-C882-2C5B-336E-220DEAA67688">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>0702BEAD-2A33-32C0-026D-C29187CD1343</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENDERECO" id="8D39BAB3-BF43-5A7C-C66D-90DA71ADD85A">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>0D0C30FE-1577-9FCD-4063-054F401AD35E</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CIDADE" id="21239BA8-C7E9-BF62-48F3-B289B9101A28">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>EAA686EA-3B9C-7C60-CD89-42BC13F52DE6</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODPOSTAL" id="F17F2950-7D9F-9D89-262C-7ADD42D5C9A5">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>3D5BB9C9-0D87-6AF9-3860-3C3514490EA8</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONE" id="F51CDADD-7439-FFCF-E4CC-4B9119583523">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>33F5C65E-CD33-5CE2-5F21-431FDA367768</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="598F9A6E-B6AF-EDA9-1B31-8C7A4633CDDE" name="ALUNO PK">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>CC3843B5-276E-D7A6-1419-DEE8C2AE31AD</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2642AD32-7BC4-73F7-EAAD-397C876A2B56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

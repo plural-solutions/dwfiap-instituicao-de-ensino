@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FBCB9C20-9A76-8839-BB7A-FCBE3AD10C96" name="DISCIPLINAS_PREREQ">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:05:50 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DISCIPLINA_ID" id="B3C69333-EEE2-841D-5884-87AA2A8EF63A">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:06:50 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="152BDA7A-6C5D-E824-5172-CA0DCF961684" referredColumn="74FDD4CD-8906-6015-DEAC-B2A937B35B85"/>
+</associations>
+</Column>
+<Column name="DISCIPLINA_REQ_ID" id="7463B701-B88D-5AEC-D725-8BF1748B5C9A">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:06:50 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D400BDE4-9153-F76A-4EB2-A3BE5DDFCED4" referredColumn="74FDD4CD-8906-6015-DEAC-B2A937B35B85"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="247990BB-9A47-977A-012A-A76C067C5DDA" name="DISCIPLINAS_PREREQ_PK">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:06:50 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7463B701-B88D-5AEC-D725-8BF1748B5C9A"/>
+<colUsage columnID="B3C69333-EEE2-841D-5884-87AA2A8EF63A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F810A46-023C-8E6F-A992-E0DBC4456CAB" name="DISCIPLINAS_PREREQ_DISCIPLINA_FK">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:09:02 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3C69333-EEE2-841D-5884-87AA2A8EF63A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D458C1A0-7D9D-122F-526F-B71B27EF47FA" name="DISCIPLINAS_PREREQ_DISCIPLINA_REQ_FK">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:09:02 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7463B701-B88D-5AEC-D725-8BF1748B5C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

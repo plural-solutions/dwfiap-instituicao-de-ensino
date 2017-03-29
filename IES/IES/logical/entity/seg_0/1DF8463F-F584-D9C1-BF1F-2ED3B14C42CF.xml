@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1DF8463F-F584-D9C1-BF1F-2ED3B14C42CF" name="DISCIPLINA">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>C49F478D-D5F9-663F-5D67-970D8B295810</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="51507B7D-7787-409E-2AE0-7B52E0E71C5D">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>74FDD4CD-8906-6015-DEAC-B2A937B35B85</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRICAO" id="DF23D7B3-4C96-06AD-D7AA-4EB1AA933E6A">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>6049F914-B6E3-79B7-C0C9-535694F7352B</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMCREDITOS" id="405CA9FC-4BD1-8DBB-FE13-F8F6356AAD73">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>0E140690-3368-93A1-E273-5BB166B02652</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7F23B64-9EB4-13CC-47E6-1F1E44E34CEE" name="DISCIPLINA PK">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>409F10ED-FB77-5286-2F7E-F123D3815B82</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51507B7D-7787-409E-2AE0-7B52E0E71C5D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

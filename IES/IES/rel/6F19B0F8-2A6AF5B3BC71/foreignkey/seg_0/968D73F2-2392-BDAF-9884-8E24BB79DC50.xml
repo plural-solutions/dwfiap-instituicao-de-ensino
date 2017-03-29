@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="968D73F2-2392-BDAF-9884-8E24BB79DC50" containerWithKeyObject="1FE89030-614E-B125-F960-18B369006D08" localFKIndex="D9D31917-22C1-E408-445E-9F29C601354D" name="EDICAO_ALUNO_ALUNO_FK">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:21:59 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7643DD47-FB5A-D974-C3EE-202860D62F46</referredTableID>
+<keyObject>CC3843B5-276E-D7A6-1419-DEE8C2AE31AD</keyObject>
+<referredKeyID>CC3843B5-276E-D7A6-1419-DEE8C2AE31AD</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

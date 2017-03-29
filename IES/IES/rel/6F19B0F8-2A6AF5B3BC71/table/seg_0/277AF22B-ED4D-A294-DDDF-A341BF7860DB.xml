@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="277AF22B-ED4D-A294-DDDF-A341BF7860DB" name="PROFESSOR">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 00:55:37 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E74F8439-3712-172C-6884-B3F9A2631DCC">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:00:35 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="487B210D-0467-6E40-5A9C-7EBB4785797C">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:00:35 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO" id="A1792CF2-0A63-B570-F52D-4C8AA1E4EA05">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:00:35 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIDADE" id="F505B37B-DAB0-C2E4-6CEF-E1A3A1A755B0">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:00:35 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODPOSTAL" id="B14B87C9-EEAF-9832-03F0-DEE749EAAD71">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:00:35 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONE" id="EED0FB3F-C37E-B3A6-2B45-E953675D9EF1">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:00:35 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELINTERNO" id="CA6EEB80-7059-39B6-5420-817F87ED7F22">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:00:35 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CF82522-5C28-6578-E05D-7377F3B0D33C" name="PROFESSOR_PK">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:03:32 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E74F8439-3712-172C-6884-B3F9A2631DCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

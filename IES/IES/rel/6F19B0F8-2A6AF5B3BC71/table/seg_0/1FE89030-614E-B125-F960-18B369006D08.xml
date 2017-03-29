@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FE89030-614E-B125-F960-18B369006D08" name="EDICAO_ALUNO">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:20:23 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EDICAO_ID" id="9B5B4E5A-D3CF-5DAC-FCD7-4BA10F1C8EDA">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:20:51 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87A7D996-62DA-DD65-2154-144D4D711335" referredColumn="130DB4BF-BE99-1ED9-6B93-83097932D2E4"/>
+</associations>
+</Column>
+<Column name="ALUNO_ID" id="DD35F117-9A2D-3DBA-E1D0-B63552A71EF1">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:20:51 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="968D73F2-2392-BDAF-9884-8E24BB79DC50" referredColumn="E9AEE9EF-F3EF-90D1-05D5-7D729D42AD3C"/>
+</associations>
+</Column>
+<Column name="NOTA" id="EA9A8ACC-EBF5-53EE-262E-2C4AA96FD3D7">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:22:38 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93EC29F0-5E71-6883-1C59-3C248A8D6AA7" name="EDICAO_ALUNO_EDICAO_FK">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:21:20 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B5B4E5A-D3CF-5DAC-FCD7-4BA10F1C8EDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9D31917-22C1-E408-445E-9F29C601354D" name="EDICAO_ALUNO_ALUNO_FK">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:21:59 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD35F117-9A2D-3DBA-E1D0-B63552A71EF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

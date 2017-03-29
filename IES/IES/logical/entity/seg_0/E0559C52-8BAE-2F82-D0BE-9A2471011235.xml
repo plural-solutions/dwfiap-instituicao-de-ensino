@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0559C52-8BAE-2F82-D0BE-9A2471011235" name="EDICAO">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>2F2E136D-7349-B312-1D60-4DED547AB3DB</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="1B2DCEA4-96D1-14CD-B64D-26E5E54C6EF0">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>130DB4BF-BE99-1ED9-6B93-83097932D2E4</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ANO" id="E168B48D-02E4-A48B-203C-8852705A0E37">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>783A9B3D-DE9D-8AAF-9028-3EB88B3E4E12</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEMESTRE" id="F7D09715-F010-C58D-A007-A4A7DD9AE50B">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>233B24C6-3332-F6C9-FF73-D8C2B815481F</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EDIFICIO" id="2F326F47-C80F-B910-1AFD-DCCFD8235151">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>0C34D072-E7EC-6B01-F13A-7007973996FF</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA INICIO" id="6735B3A5-2D8C-2391-3CF1-20F3F21B3F1E">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>88DDA0ED-7D3E-9363-6E7D-E9E305817CD7</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROFESSOR ID" id="A601FC44-52D1-D5C5-1CF0-BE403EFF4AA0">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>BCFE1770-68A9-8310-0102-23A15AF2F882</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<referedAttribute>409FA57B-C40F-6005-828F-F54CE3B48F47</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DISCIPLINA ID" id="8FB653C9-B395-1CCB-0D22-B4C0596A3FF2">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>4EDBFDCE-D517-960C-5550-A6479E2B5152</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<referedAttribute>51507B7D-7787-409E-2AE0-7B52E0E71C5D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMEROCREDITOS" id="00C9712A-C68B-5A5A-6EFF-60650FBA5CBD">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>7236F377-E27A-410A-E61D-765F3161F902</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32A29199-34BC-309E-D00A-784DCE9A30AA" name="EDICAO PK">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>B9C3F523-BAFA-5EC7-106B-9E524DA11E1F</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B2DCEA4-96D1-14CD-B64D-26E5E54C6EF0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

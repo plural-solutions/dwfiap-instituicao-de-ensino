@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C49F478D-D5F9-663F-5D67-970D8B295810" name="DISCIPLINA">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 00:53:18 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="74FDD4CD-8906-6015-DEAC-B2A937B35B85">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 00:55:12 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="6049F914-B6E3-79B7-C0C9-535694F7352B">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 00:55:12 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMCREDITOS" id="0E140690-3368-93A1-E273-5BB166B02652">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 00:55:12 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="409F10ED-FB77-5286-2F7E-F123D3815B82" name="DISCIPLINA_PK">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 00:55:12 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74FDD4CD-8906-6015-DEAC-B2A937B35B85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

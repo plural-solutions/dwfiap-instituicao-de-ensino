@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F2E136D-7349-B312-1D60-4DED547AB3DB" name="EDICAO">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:14:34 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="130DB4BF-BE99-1ED9-6B93-83097932D2E4">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:21:08 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANO" id="783A9B3D-DE9D-8AAF-9028-3EB88B3E4E12">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:16:03 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEMESTRE" id="233B24C6-3332-F6C9-FF73-D8C2B815481F">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:16:03 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EDIFICIO" id="0C34D072-E7EC-6B01-F13A-7007973996FF">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:16:03 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_INICIO" id="88DDA0ED-7D3E-9363-6E7D-E9E305817CD7">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:16:03 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFESSOR_ID" id="61DBEB23-4277-C957-697A-7459CF8EB355">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:16:03 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5E8C025-5AF8-DC83-37C2-BD193E867530" referredColumn="E74F8439-3712-172C-6884-B3F9A2631DCC"/>
+</associations>
+</Column>
+<Column name="DISCIPLINA_ID" id="280EA343-F88A-D6A0-0DA0-94FF5A08FD0C">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:16:03 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="203C61B6-715F-0627-67FC-07710272798E" referredColumn="74FDD4CD-8906-6015-DEAC-B2A937B35B85"/>
+</associations>
+</Column>
+<Column name="NUMEROCREDITOS" id="7236F377-E27A-410A-E61D-765F3161F902">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:20:03 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9C3F523-BAFA-5EC7-106B-9E524DA11E1F" name="EDICAO_PK">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:19:13 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="130DB4BF-BE99-1ED9-6B93-83097932D2E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC6A40D5-B4F7-13F8-8EC7-0C93680D11B0" name="EDICAO_PROFESSOR_FK">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:26:20 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61DBEB23-4277-C957-697A-7459CF8EB355"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E58BE60-02ED-1896-4816-2973841F3F06" name="EDICAO_DISCIPLINA_FK">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:26:20 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="280EA343-F88A-D6A0-0DA0-94FF5A08FD0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

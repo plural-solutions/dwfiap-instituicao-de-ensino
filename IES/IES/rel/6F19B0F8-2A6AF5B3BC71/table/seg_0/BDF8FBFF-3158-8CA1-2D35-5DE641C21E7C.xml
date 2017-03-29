@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDF8FBFF-3158-8CA1-2D35-5DE641C21E7C" name="PROFESSOR_DISCIPLINA">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:24:14 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROFESSOR_ID" id="685F9912-ADF7-A0A2-8748-B32A03746780">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:24:45 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77A819B1-34F9-FE23-4C2F-DFCF8DA5D27F" referredColumn="E74F8439-3712-172C-6884-B3F9A2631DCC"/>
+</associations>
+</Column>
+<Column name="DISCIPLINA_ID" id="21C6C15E-BEF1-50A8-D8AB-609D43723195">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:24:45 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F2D39EE-73F5-2188-41E4-6EA6786E20C3" referredColumn="74FDD4CD-8906-6015-DEAC-B2A937B35B85"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2698EAAF-A513-550A-5F87-2142065B203D" name="PROFESSOR_DISCIPLINA_DISCIPLINA_FK">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:25:00 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21C6C15E-BEF1-50A8-D8AB-609D43723195"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65605AF8-F228-A1C8-2424-1EE8A351F7D6" name="PROFESSOR_DISCIPLINA_PROFESSOR_FK">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:25:00 UTC</createdTime>
+<ownerDesignName>IES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="685F9912-ADF7-A0A2-8748-B32A03746780"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

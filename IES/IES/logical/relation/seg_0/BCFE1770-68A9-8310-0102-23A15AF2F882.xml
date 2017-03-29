@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EDICAO_PROFESSOR_FK" directorySegmentName="seg_0" id="BCFE1770-68A9-8310-0102-23A15AF2F882">
+<createdBy>rm72468</createdBy>
+<createdTime>2017-03-29 01:30:00 UTC</createdTime>
+<generatorID>D5E8C025-5AF8-DC83-37C2-BD193E867530</generatorID>
+<ownerDesignName>IES</ownerDesignName>
+<engineerTo>
+<item key="6F19B0F8-AA7B-121D-0D58-2A6AF5B3BC71" value="true"/>
+</engineerTo>
+<sourcePk>777E3073-CF9F-C26A-6D01-104EE31AD1EE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>256B9B48-C94D-F7B8-26B5-0C4050044F25</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E0559C52-8BAE-2F82-D0BE-9A2471011235</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
